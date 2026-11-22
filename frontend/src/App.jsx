@@ -4,7 +4,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 import './App.css';
 
-const API = 'http://localhost:3000/api';
+const API = 'https://apipeliculas-production-f521424d.up.railway.app/api';
 
 const modulos = [
   { id: 'generos', nombre: 'Géneros', icono: '🎬' },
